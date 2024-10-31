@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html style="background-color:hsl(300, 76%, 92%)" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enchiladas verdes</title>
+    <style>
+        img {
+            border-radius: 50px 50px 50px 50px;
+            border: solid purple 5px;
+        }
+
+        body {
+            font-family: "Trebuchet MS", sans-serif;
+            font-size: 35px;
+            margin: 50px 10px 0 50px;
+        }
+
+        #but1 {
+            margin: 0 0 0 815px;
+        }
+
+        #like {
+            margin: 0 0 0 775px;
+        }
+    </style>
+</head>
+<h1 style="font-size:400%;background-color:hsl(300, 76%, 92%);
+text-align: center; font-family: Oswald, fantasy; color: slateblue">
+    Enchiladas Verdes</h1>
+<body>
+
+<p>
+    <b style="font-size:150%;text-align: left;margin: 0 0 0 700px">Ingredientes:</b>
+</p>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Ingredientes"
+         src="https://imag.bonviveur.com/ingredientes-del-tiramisu.jpg"
+         width="300" height="300"></div>
+<p style="margin: 150px 0 150px 400px">
+    • 500 g de queso mascarpone
+    • 4 huevos
+    • 100 g de azúcar
+    • 200 g de bizcochos de soletilla
+    • 1 taza de café fuerte
+    • 50 ml de licor Amaretto
+    • Cacao en polvo
+</p>
+<hr>
+<p>
+    <b style="font-size:150%;text-align: left;margin: 0 0 0 700px">Preparación:</b>
+</p>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Salsa"
+         src="https://recetasdecocina.elmundo.es/wp-content/uploads/2011/10/receta-de-crema-tiramisu.jpg"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">1º Preparar la crema: Separa las yemas de las claras. Bate las yemas con el azúcar hasta obtener una mezcla espumosa. Añade el queso mascarpone y mezcla suavemente.</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Cocinando las tortillas"
+         src="https://recetasdecocina.elmundo.es/wp-content/uploads/2011/10/mezcla-movimientos-envolventes.jpg"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">2º Montar las claras: Bate las claras a punto de nieve e incorpóralas con movimientos envolventes a la crema de mascarpone</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Prepara la fagita"
+         src="https://recetasdecocina.elmundo.es/wp-content/uploads/2011/10/como-hacer-tiramisu-casero.jpg"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">3º Montar el tiramisú: Mezcla el café con el Amaretto. Moja los bizcochos en la mezcla y colócalos en la base de un molde. Cubre con una capa de crema de mascarpone. Repite hasta terminar con una capa de crema.</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Emplatando"
+         src="https://recetasdecocina.elmundo.es/wp-content/uploads/2022/08/tiramisu-postre-italiano.jpg"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">4º Refrigerar: Deja el tiramisú en la nevera durante al menos 4 horas. Antes de servir, espolvorea con cacao en polvo.</p>
+<hr>
+<p>
+    <button><a href="https://jacasrub.github.io/Recetas-de-cocina/">
+        VOLVER</a></button>
+    <script>
+        function like(sw) {
+            let pic;
+            if (sw == 0) {
+                pic = "https://e7.pngegg.com/pngimages/763/345/png-clipart-like-button-social-media-facebook-messenger-speak-listen-apply-blue-angle.png"
+            } else {
+                pic = "https://cdn-icons-png.flaticon.com/512/4926/4926589.png"
+            }
+            document.getElementById("like").src = pic;
+        }
+    </script>
+    <img id="like"
+         src="https://img.freepik.com/fotos-premium/pared-blanca-fondo-blanco-que-dice-palabra-cita_994023-371201.jpg"
+         alt="Like/Dislike"
+         width="100" height="100">
+    <br>
+
+    <button id="but1" type="button" onclick="like(0)">ME GUSTA</button>
+    <button id="but2" type="button" onclick="like(1)">NO ME GUSTA</button>
+</p>
+
+</body>
+</html>
